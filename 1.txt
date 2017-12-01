@@ -1,5 +1,4 @@
-<<<<<<< HEAD
+
 111asfasfaff
-=======
-1112
->>>>>>> 1e1ed194a0ffee9791d673f40869cbec0c0a8ec5
+
+
