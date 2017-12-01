@@ -1,0 +1,288 @@
+.login-content {
+    position: relative;
+    width: 1200px;
+    margin: 200px auto 0;
+}
+
+.y-nav .navMain li a > img {
+    position: relative;
+    top: 12px;
+    left: -6px;
+}
+
+.y-logo + span {
+    font-size: 16px;
+    color: #333;
+    line-height: 80px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.y-nav {
+    z-index: 99;
+}
+
+.extra1 {
+    position: relative;
+}
+
+main {
+    z-index: 9;
+}
+
+.extra1 .hide-menu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #cccccc;
+    top: 60px;
+    left: 30px;
+}
+
+.hide-menu img {
+    margin-bottom: 10px;
+}
+
+.extra1:hover .hide-menu {
+    display: block;
+}
+
+.extra1 .hide-menu:before {
+    content: '';
+    background: url("../images/arrow_u_gray.png") no-repeat center center transparent;
+    width: 14px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: 20px;
+}
+
+.login-bg {
+    position: absolute;
+    z-index: 1;
+}
+
+.login-wrap {
+    width: 410px;
+    margin-left: 700px;
+    position: relative;
+    background: #fff;
+    z-index: 2;
+    height: 530px;
+    top: -70px;
+    box-shadow: 1px 1px 15px #a5a5a5;
+}
+
+.login-wrap .nav {
+    display: table;
+    width: 100%;
+}
+
+.login-wrap li {
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    border-top: 3px solid #fff;
+}
+
+.login-wrap li.active {
+    border-top: 3px solid #829ec6;
+}
+
+.login-wrap li a {
+    font-size: 16px;
+    color: #333;
+    height: 70px;
+    line-height: 50px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.login-wrap li:first-child a {
+    border-right: 1px solid #d6d6d6;
+}
+
+.login-wrap li.active a {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#tab2 {
+    text-align: center;
+}
+
+.tab-pane {
+    background: #f2f4f7;
+    padding: 35px 20px;
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+    height: 323px;
+}
+
+.tab-pane input[type="text"] {
+    height: 46px;
+    width: 360px;
+    margin: 0 auto 20px;
+    border: 1px solid #d6d6d6;
+    border-radius: 0;
+    margin-left: 0;
+    padding-left: 35px;
+}
+
+.login-user {
+    background: url("../images/i_user.png") no-repeat 8px 11px #fff;
+}
+
+.login-password {
+    background: url("../images/i_password.png") no-repeat 8px 11px #fff;
+}
+
+input[type="checkbox"] {
+}
+
+.btn-login {
+    background: #ffa800;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 46px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.tab-pane > label {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+}
+
+.extra-opera {
+}
+
+.extra-opera a {
+    font-size: 14px;
+    color: #004098;
+    text-decoration: underline;
+}
+
+.extra-opera span {
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+
+.extra-opera span a {
+}
+
+.tab-pane b {
+    font-size: 18px;
+    color: #000000;
+}
+
+.tab-pane > img {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.tab-pane > p {
+    font-size: 14px;
+    color: #777;
+}
+
+.feedback {
+    text-align: center;
+    background: #f2f4f7;
+    height: 103px;
+    padding-top: 22px;
+    border-top: 1px solid #d2d2d2;
+    font-size: 14px;
+    color: #555555;
+    line-height: 30px;
+}
+
+.feedback a {
+}
+
+.feedback a img {
+}
+
+.feedback p {
+}
+
+.footer {
+    background: #666666;
+    height: 100px;
+    padding-top: 19px;
+}
+
+.footer-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 27px;
+    position: relative;
+}
+
+.footer-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+    text-align: right;
+}
+
+.footer-right img {
+}
+
+/*blue-checkbox*/
+.blue-checkbox {
+    display: none;
+}
+
+.blue-checkbox + label {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    color: #454545;
+    padding-left: 25px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.blue-checkbox + label:before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    content: '';
+    display: inline-block;
+    border: 1px solid #004098;
+    width: 18px;
+    background: transparent;
+    height: 18px;
+}
+
+.blue-checkbox + label:after {
+    position: absolute;
+    left: 1px;
+    top: 11px;
+    content: '';
+    display: inline-block;
+    background: transparent;
+    width: 16px;
+    height: 16px;
+}
+
+.blue-checkbox:not(:checked) + label:after {
+    background: transparent;
+}
+
+.blue-checkbox:checked + label:after {
+    background: url("../images/i_checked.png") no-repeat center center #004098;
+}

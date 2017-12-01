@@ -1,0 +1,415 @@
+.y-layer {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.y-layer h1 {
+    margin-bottom: 12px;
+}
+
+.first-bbs {
+    border-left: 5px solid #65778c;
+    padding: 10px 20px;
+    line-height: 1.7;
+}
+
+.first-bbs .title {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.first-bbs .title a {
+    color: #004098;
+}
+
+.first-bbs .title .time {
+    float: right;
+    font-size: 12px;
+    color: #333;
+}
+
+.myCol {
+    margin-right: 20px;
+    width: 285px;
+    height: 102px;
+    overflow: hidden;
+    float: left;
+    color: #fff;
+}
+
+.subscription {
+    background: #1f5aac;
+}
+
+.question {
+    background: #e18c0b;
+}
+
+.recommend {
+    background: #0fb98f;
+}
+
+.training {
+    background: #c32303;
+}
+
+.myIcon {
+    float: left;
+    width: 102px;
+    height: 102px;
+    margin-right: 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.myIcon img {
+    width: 64px;
+    height: 64px;
+    margin-top: 19px;
+}
+
+.myCol:last-child {
+    margin: 0;
+}
+
+.myTxt {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.myTxt b {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 15px 0 5px;
+    display: block;
+    font-weight: 100;
+}
+
+.my-center .w50, .my-bbs .w50 {
+    width: 590px;
+}
+
+.y-layer .y-cl {
+    margin: 10px 0;
+}
+
+.y-mode {
+    margin: 18px 0;
+}
+
+.thumb, .caption {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.thumb {
+    padding-right: 10px;
+    max-height: 68px;
+    width: 68px;
+}
+
+.thumb img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.caption h2 {
+    margin-bottom: 5px;
+}
+
+.caption p {
+    color: #999;
+    line-height: 1.6;
+}
+
+.caption p span#stuName {
+    margin-right: 15px;
+}
+
+.sign-banner {
+    position: relative;
+}
+
+.sign-banner .bg img {
+    width: 100%;
+}
+
+.sign-banner .signBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.sign-banner .signBox h2 {
+    padding: 10px 50px;
+    border: 2px solid #fff;
+}
+
+.sign-banner .signBox .btn {
+    border: 0;
+    background: #002e6e;
+    color: #fff;
+    border-radius: 0;
+    margin-top: 22px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.boards .tab-content {
+    padding: 20px 0;
+}
+
+.boards .y-mode {
+    border-right: 1px solid #e1e1e1;
+    padding: 15px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.boards .y-mode:nth-child(3n) {
+    border: 0;
+}
+
+.boards .y-mode .caption {
+    width: 200px;
+    padding-left: 15px;
+}
+
+.boards .y-mode h2 span {
+    float: right;
+}
+
+.y-recommend .row {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.y-recommend .col-xs-3 {
+    padding: 0;
+    margin: 0 12px;
+    width: 282px;
+    border: 1px solid #e1e1e1;
+}
+
+.recmdBox {
+    height: 38px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    line-height: 20px;
+    padding: 9px;
+}
+
+.recmdBox h4 {
+    float: left;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+
+.recmdBox a {
+    float: right;
+    text-align: right;
+    width: 20%;
+    color: #edf602;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.recmdBox a span {
+    font-size: 14px;
+}
+
+.vote-left {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.vote-left:before{
+    content: '';
+    width: 1px;
+    background: #e1e1e1;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom:0;
+}
+
+.my-bbs .col-xs-6 > p {
+    font-size: 18px;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+}
+
+.my-bbs .col-xs-6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my-bbs .col-xs-6 > p a {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.vote-list {
+}
+
+.vote-cell {
+    border-bottom: 1px dashed #e1e1e1;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: table;
+    width: 100%;
+}
+
+.vote-cell:last-child {
+    border: 0;
+}
+
+.vote-img {
+    display: table-cell;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.vote-img img {
+}
+
+.vote-des {
+    display: table-cell;
+    padding-left: 20px;
+    position: relative;
+}
+
+.vote-des a {
+    display: block;
+    font-size: 18px;
+    color: #333333;
+    height: 30px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.vote-des button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+    color: #666666;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.vote-des h3 {
+    font-size: 14px;
+    color: #999;
+    height: 34px;
+}
+
+.vote-total {
+    position: relative;
+}
+
+.vote-total-bar {
+    background: #dadada;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.vote-total-per {
+    background: #e18c0b;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.vote-total > label {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    bottom: -2px;
+    color: #555;
+    font-weight: normal;
+}
+
+.dis-list {
+}
+
+.dis-cell {
+    border-bottom: 1px dashed #e1e1e1;
+    padding: 10px 0;
+}
+
+.dis-cell:last-child {
+    border: 0;
+}
+
+.dis-cell h3 {
+    font-size: 18px;
+    color: #333333;
+}
+
+.dis-cell p {
+    font-size: 16px;
+    color: #666666;
+    padding: 15px;
+    background: #f5f5f5;
+    margin: 10px 0;
+    position: relative;
+}
+
+.dis-cell p:before {
+    content: '';
+    background: url("../images/arrow_u.png") no-repeat;
+    width: 14px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    top: -8px;
+}
+
+.dis-tag {
+}
+
+.dis-tag label {
+    font-size: 16px;
+    color: #999999;
+    font-weight: normal;
+}
+
+.dis-tag button {
+    float: right;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    color: #999999;
+}
+
+.dis-tag button img {
+    margin-right: 5px;
+    vertical-align: top;
+}
